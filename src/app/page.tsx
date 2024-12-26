@@ -4,6 +4,8 @@ import Navbar
  from "./components/Navbar"
 import ProjectsSection from "./components/ProjectsSection"
 import SkillsSection from "./components/SkillsSection"
+import React, { useState } from "react";
+ 
 export default function Home() {
   return (
    
