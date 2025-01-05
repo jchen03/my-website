@@ -26,7 +26,7 @@ function ExperienceSection() {
             <h2 className="text-4xl font-extrabold text-gray-800 mx-4">Work Experience</h2>
             <div className="w-20 border-t-4 border-blue-500"></div>
           </div>
-          <p className="text-lg text-gray-600">Here's a look at the roles I&apos;ve held during my career.</p>
+          <p className="text-lg text-gray-600">Here&apos;s a look at the roles I&apos;ve held during my career.</p>
         </div>
 
         {/* Render Experience Cards */}
