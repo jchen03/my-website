@@ -46,7 +46,7 @@ const ProjectsSection = () => {
             <section className="p-6 bg-white rounded-lg shadow-lg mb-6">
               <h2 className="text-2xl font-bold mb-4">Rendezvous-Radar</h2>
               <div className="text-gray-700 mb-4">
-                Rendezvous-Radar is an application for users to find nearby activities. The application allows users to filter for specific types of activities, and it also includes a AI-powered search feature that outputs points of interests based on the user's prompt.
+                Rendezvous-Radar is an application for users to find nearby activities. The application allows users to filter for specific types of activities, and it also includes a AI-powered search feature that outputs points of interests based on the user&apos;s prompt.
               </div>
               <a
                 href="https://github.com/rendezvous-radar/RendezvousRadar"
