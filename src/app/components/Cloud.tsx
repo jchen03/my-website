@@ -1,5 +1,13 @@
 'use client';
 import React, { useState } from "react";
+import aws from '../images/aws.png';
+import azure from '../images/azure.png';
+import gcp from '../images/gcptransparent.png';
+
+
+
+import Image from 'next/image';
+
 
 const CloudList = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +17,7 @@ const CloudList = () => {
   };
 
   return (
-    <div className="p-4 flex flex-col items-center">
+    <div className="mb-10 p-4 flex flex-col items-center">
   <div
     className="text-lg font-semibold cursor-pointer"
     onClick={toggleDropdown}
@@ -18,12 +26,21 @@ const CloudList = () => {
   </div>
 
   {isOpen && (
-    <div className="mt-2 p-4 border border-gray-300 rounded-md w-full max-w-xs">
-      <ul className="grid grid-cols-3 gap-4">
-        <li className="p-2 hover:bg-gray-100">AWS</li>
-        <li className="p-2 hover:bg-gray-100">Microsoft Azure</li>
-        <li className="p-2 hover:bg-gray-100">GCP</li>
-      </ul>
+    <div className="mt-10 p-4 border border-gray-300 rounded-md w-full max-w-4xl">
+    <ul className="grid grid-cols-3 gap-4">
+      <li className="flex flex-col items-center p-2 hover:bg-gray-100">
+        <Image src={aws} alt="AWS" className="h-12 w-20 mb-2" />
+        AWS
+      </li>
+      <li className="flex flex-col items-center p-2 hover:bg-gray-100">
+        <Image src={azure} alt="AWS"className="h-12 w-12 mb-2" />
+        Microsoft Azure
+      </li>
+      <li className="flex flex-col items-center p-2 hover:bg-gray-100">
+        <Image src={gcp} alt="AWS" className="h-12 w-12 mb-2" />
+        GCP
+      </li>
+    </ul>
     </div>
   )}
 </div>
