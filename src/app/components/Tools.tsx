@@ -28,7 +28,7 @@ const ToolsList = () => {
       </div>
 
       {isOpen && (
-        <div className="mt-10 p-4 border border-gray-300 rounded-md w-full max-w-4xl">
+        <div className="mt-10 p-4 border border-gray-300 rounded-lg w-full max-w-4xl bg-white">
           <ul className="grid grid-cols-3 gap-4">
             <li className="flex flex-col items-center p-2 hover:bg-gray-100">
               <Image src={git} alt="AWS" className="h-12 w-12 mb-2" />
